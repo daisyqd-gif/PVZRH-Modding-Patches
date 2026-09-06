@@ -15,9 +15,9 @@
 - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
 -    at CustomizeLib.BepInEx.Patch.TravelPackagePatch.PostInit(TravelPackage __instance)
 - Warnings
+```
   4. Try including the PDB in the mod and find the line number.
   5. Find the error below in the fixes section and fix it.
-```
 # Fixes:
 ## Patch 1:
 ### Error:
