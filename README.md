@@ -11,9 +11,7 @@
 - Assembly xxx is not registered to il2cpp
 - [UniverseLib] THIS WARNING IS NOT BUG!!!! DON'T REPORT THIS!!!!!
 - System.TypeLoadException: GenericArguments[0], 'xxxDebuff', on 'BaseBuff`1[T]' violates the constraint of type parameter 'T'.
-- During invoking native->managed trampoline
-- Exception: System.NullReferenceException: Object reference not set to an instance of an object.
--    at CustomizeLib.BepInEx.Patch.TravelPackagePatch.PostInit(TravelPackage __instance)
+- Exception: System.NullReferenceException: Object reference not set to an instance of an object. at CustomizeLib.BepInEx.Patch.TravelPackagePatch.PostInit(TravelPackage __instance)
 - Warnings
 ```
   4. Try including the PDB in the mod and find the line number.
