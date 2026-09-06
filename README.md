@@ -8,7 +8,7 @@
 ```
 ### Fix:
 ```diff
-+Drag the regenerated UniTask.dll from the release folder
++Drag the regenerated UniTask.dll from the repo into BepInEx's interop folder
 ```
 ## Patch 2:
 ### Error:
